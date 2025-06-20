@@ -1,0 +1,42 @@
+body{
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text{
+    margin: 0;
+    padding: 0;
+}
+.text .the{
+    font-size: 30px;
+}
+.text .car{
+    font-size: 70px;
+    letter-spacing: 6px;
+}
+.text .special{
+    font-size: 30px;
+}
+
+.navbar{
+   
+}
+.navbar ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   gap: 100px;
+}
+.navbar li{
+   list-style-type:none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
